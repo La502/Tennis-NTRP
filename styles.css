@@ -1,0 +1,78 @@
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+h1 {
+    background-color: #6a89cc;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%; /* 폼의 전체 너비를 80%로 설정 */
+    max-width: 800px; /* 최대 너비를 800px로 설정 */
+}
+
+.question {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e1e9f7;
+    border-radius: 5px;
+    border: 1px solid #6a89cc;
+}
+
+button {
+    background-color: #6a89cc;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4a69bd;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+#result {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+    color: #333;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
