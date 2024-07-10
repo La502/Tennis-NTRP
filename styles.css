@@ -43,12 +43,15 @@ button {
     cursor: pointer;
     width: 100%;
     max-width: 200px;
-    display: block; /* 블록 요소로 변경 */
-    margin: 10px auto; /* 중앙 정렬 */
 }
 
 button:hover {
     background-color: #4a69bd;
+}
+
+.next-button {
+    display: block; /* 블록 요소로 변경 */
+    margin: 10px auto; /* 중앙 정렬 */
 }
 
 input[type="radio"] {
