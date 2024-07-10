@@ -32,6 +32,7 @@ form {
     background-color: #e1e9f7;
     border-radius: 5px;
     border: 1px solid #6a89cc;
+    text-align: center; /* 질문을 중앙 정렬 */
 }
 
 button {
@@ -41,6 +42,10 @@ button {
     padding: 10px 20px;
     border-radius: 5px;
     cursor: pointer;
+    width: 100%;
+    max-width: 200px;
+    display: block; /* 블록 요소로 변경 */
+    margin: 10px auto; /* 중앙 정렬 */
 }
 
 button:hover {
